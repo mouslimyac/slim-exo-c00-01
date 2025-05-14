@@ -3,7 +3,7 @@
 
 read -p "Entrez le nom du fichier : " fichier
 
-if [ -f "$fichier" ]; then
+if [ -f '$fichier' ]; then
     echo "Le fichier '$fichier' existe."
 else
     echo "Le fichier '$fichier' n'existe pas."
